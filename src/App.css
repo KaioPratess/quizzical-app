@@ -118,7 +118,7 @@
 }
 
 .question ul li input:checked + label {
-  background-color: #D6DBF5;
+  background: #D6DBF5;
   border: none;
 }
 
@@ -143,3 +143,15 @@
   cursor: pointer;
 }
 
+.result-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.result-container p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #293264;
+}

@@ -22,6 +22,13 @@ export default {
     {"id":28,"name":"Vehicles"},
     {"id":29,"name":"Entertainment: Comics"},
     {"id":30,"name":"Science: Gadgets"},
-    {"id":31,"name":"Entertainment: Japanese Anime & Manga"},{"id":32,"name":"Entertainment: Cartoon & Animations"}
+    {"id":31,"name":"Entertainment: Japanese Anime & Manga"},
+    {"id":32,"name":"Entertainment: Cartoon & Animations"}
+  ],
+  difficulties: [
+    "Any Difficulty",
+    "Easy",
+    "Medium",
+    "Hard"
   ]
 }
