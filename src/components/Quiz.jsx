@@ -28,7 +28,8 @@ export default function Quiz(props) {
                     <label htmlFor={id} className="option">{opt}</label>
                   </li>
         })
-        return <div className='question' key={nanoid()} >
+
+        return <div className='question' key={nanoid()} > 
         <h2>{result.question}</h2>
         <ul>
           {opt}

@@ -32,9 +32,14 @@ function App() {
     }
   }
 
+  const style = {
+    height: !startGame ? '100vh' : '900px'
+  }
+
   return (
-    <div className='main-container'>
+    <div className='main-container' style={style}>
       {!startGame && <InitialPage handleChange={handleChange} handleClick={start}/>}
+      {startGame && <header className='header'><a href={<InitialPage handleChange={handleChange} handleClick={start}/>}>Quizzical</a></header>}
       {startGame && <Quiz inputs={inputs}/>}
     </div>
   )

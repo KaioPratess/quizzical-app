@@ -5,15 +5,16 @@
 }
 
 .main-container {
-  height: 900px;
   background-color: #F5F7FB;
   display: flex;
-  justify-content: center;
-  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .initial-page {
+  height: 100vh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -24,6 +25,16 @@
   color: #293264;
   font-weight: bold;
   font-family: 'Karla', sans-serif;
+  user-select: none;
+}
+
+.header a {
+  font-size: 5rem;
+  color: #293264;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .inputs {
@@ -80,12 +91,12 @@
 }
 
 .quiz-container {
-  width: 900px;
-  height: 550px;
+  max-width: 1200px;
   background-color: #F5F7FB;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .question h2 {

@@ -1,4 +1,3 @@
-import {useState, useEffect} from 'react'
 import info from '../info'
 
 export default function InitialPage(props) {
