@@ -18,4 +18,5 @@
     <li>Hooks (useState, useEffect, useRef)</li>
     <li>State and Props</li>
     <li>Forms manipulation</li>
+    <li>Functional Components</li>
   </ul>
