@@ -1,4 +1,4 @@
-<h1><a href='https://kaiopratess.github.io/quizzical-app/'>Quizzical App</a></h1>
+<h1><a href='https://kaiopratess.github.io/quizzical-app/' target='_blank'>Quizzical App</a></h1>
 
 <h2>What is this project about?</h2>
   <p>This project is a simple React quiz game. Select the desired category and difficulty and start playing.</p>
