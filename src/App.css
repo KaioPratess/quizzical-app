@@ -28,13 +28,13 @@
   user-select: none;
 }
 
-.header a {
+.header {
   font-size: 5rem;
   color: #293264;
   font-weight: bold;
   font-family: 'Karla', sans-serif;
-  text-decoration: none;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .inputs {
